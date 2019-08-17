@@ -7,7 +7,9 @@ class PigLatinizer
 
   def pig_latinize
     @words.each do |word|
-
+      word.split("").each do |c|
+        if c.match()
+      end
     end
   end
 
