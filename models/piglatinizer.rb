@@ -6,7 +6,7 @@ class PigLatinizer
   end
 
   def piglatinize(word)
-    consonant = false
+    consonant_check = false
     word.each do |c|
       if c.match(/[bcdfghjklmnpqrstvwxyz]/)
         word += word[0]
