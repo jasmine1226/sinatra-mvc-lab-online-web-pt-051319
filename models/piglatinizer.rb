@@ -1,5 +1,5 @@
 class PigLatinizer
-  attr_reader :text
+  attr_reader :words
 
   def initiallize(text)
     @words = text.lowercase.split(" ")
