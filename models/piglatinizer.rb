@@ -12,7 +12,7 @@ class PigLatinizer
         if c.match(/[bcdfghjklmnpqrstvwxyz]/)
           consonant += c
         elsif c.match(/[aeiou]/)
-          nreak
+          break
         end
       end
     end
