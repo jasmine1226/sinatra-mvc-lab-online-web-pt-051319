@@ -13,7 +13,8 @@ class PigLatinizer
         word.slice!(0)
         consonant_check = true
       elsif c.match(/[aeiou]/)
-
+        word += 'w' if !consonant_check
+        word += 'ay'
         break
       end
     end
