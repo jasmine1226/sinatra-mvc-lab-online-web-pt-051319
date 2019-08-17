@@ -18,6 +18,7 @@ class PigLatinizer
         break
       end
     end
+    word
   end
 
 end
