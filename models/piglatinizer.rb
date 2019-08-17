@@ -6,9 +6,10 @@ class PigLatinizer
   end
 
   def piglatinize(word)
+    output = word
     word.split("").each do |c|
       if c.match(/[bcdfghjklmnpqrstvwxyz]/)
-        consonant += c
+
       elsif c.match(/[aeiou]/)
         break
       end
