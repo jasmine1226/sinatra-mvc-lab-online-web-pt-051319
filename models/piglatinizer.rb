@@ -6,14 +6,12 @@ class PigLatinizer
   end
 
   def pig_latinize
-    @words.each do |word|
-      consonant = ""
-      word.split("").each do |c|
-        if c.match(/[bcdfghjklmnpqrstvwxyz]/)
-          consonant += c
-        elsif c.match(/[aeiou]/)
-          break
-        end
+    consonant = ""
+    word.split("").each do |c|
+      if c.match(/[bcdfghjklmnpqrstvwxyz]/)
+        consonant += c
+      elsif c.match(/[aeiou]/)
+        break
       end
     end
   end
