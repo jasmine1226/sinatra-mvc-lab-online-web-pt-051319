@@ -11,7 +11,7 @@ class PigLatinizer
       if c.match(/[bcdfghjklmnpqrstvwxyz]/)
         word += word[0]
         word.slice!(0)
-
+        consonant_check = true
       elsif c.match(/[aeiou]/)
 
         break
