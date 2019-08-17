@@ -8,7 +8,8 @@ class PigLatinizer
   def pig_latinize
     @words.each do |word|
       word.split("").each do |c|
-        if c.match(/[aeiou]/)
+        if c.match(/[bcdfghjklmnpqrstvwxyz]/)
+          consonant += c
       end
     end
   end
