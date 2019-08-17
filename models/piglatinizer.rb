@@ -17,6 +17,7 @@ class PigLatinizer
         word += 'ay'
         break
       end
+    word
     end
     word
   end
