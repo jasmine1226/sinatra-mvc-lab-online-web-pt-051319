@@ -5,5 +5,10 @@ class PigLatinizer
     @words = text.lowercase.split(" ")
   end
 
+  def pig_latinize
+    @words.each do |word|
+
+    end
+  end
 
 end
