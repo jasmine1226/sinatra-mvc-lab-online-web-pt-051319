@@ -12,4 +12,4 @@ class App < Sinatra::Base
     erb :result
   end
 end
-s
+
