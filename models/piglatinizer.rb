@@ -21,6 +21,7 @@ class PigLatinizer
       word
       end
     end
+    text.join(" ")
   end
 
 end
