@@ -5,8 +5,7 @@ class PigLatinizer
     @words = text.lowercase.split(" ")
   end
 
-  def piglatinize
-    consonant = ""
+  def piglatinize(word)
     word.split("").each do |c|
       if c.match(/[bcdfghjklmnpqrstvwxyz]/)
         consonant += c
