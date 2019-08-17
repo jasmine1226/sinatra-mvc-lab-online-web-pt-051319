@@ -11,9 +11,9 @@ class PigLatinizer
       if c.match(/[bcdfghjklmnpqrstvwxyz]/)
         word += word[0]
         word.slice!(0)
-        
+
       elsif c.match(/[aeiou]/)
-        
+
         break
       end
     end
