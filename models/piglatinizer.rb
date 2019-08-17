@@ -11,6 +11,7 @@ class PigLatinizer
       word.split("").each do |c|
         if c.match(/[bcdfghjklmnpqrstvwxyz]/)
           consonant += c
+        elsif c.match(/[aeiou]/)
       end
     end
   end
