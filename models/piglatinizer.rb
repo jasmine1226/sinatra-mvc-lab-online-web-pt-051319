@@ -5,6 +5,10 @@ class PigLatinizer
     @text = text
   end
 
+  def wordarray(text)
+    text.split(" ")
+  end
+
   def piglatinize(word)
     consonant_check = false
     word.downcase.split("").each do |c|
